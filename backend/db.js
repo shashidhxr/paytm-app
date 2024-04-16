@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.connect("mongodb+srv://shashidharb459:0jtZ2u06qV7c56U9@paytm-cluster0.pgxo5ce.mongodb.net/paytmapp")
 
-const userSchema = new mongoose.schema({
+const userSchema = new mongoose.Schema({
     first_name: {
         type: String,
         required: true,
